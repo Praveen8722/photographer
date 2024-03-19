@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photograohy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"/>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo"><span>Pra</span>veen</a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testomonials</a>
+      </nav>
+      <a href="#contact" class="contact">Contact Me</a>
+    </header>
+    <section id="home" class="home ">
+      <div class="home-content">
+        <h1>"Capture Life's Moments Beatifully...!</h1>
+      </div>
+    </section>
+    <section id="gallery" class="gallery">
+      <span>Gallery</span>
+      <div class="gallery-img">
+        <div>
+          <img src="./background.jpg" alt="" />
+        </div>
+        <div>
+          <img src="./background2.jpg" alt="" />
+        </div>
+      </div>
+      <br />
+      <div class="gallery-img">
+        <div>
+          <img src="./background3.jpg" alt="" />
+        </div>
+        <div>
+          <img src="./background9.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <center>
+        <h1>About</h1>
+        <div>
+          <p>
+            <span class="mark">Praveen The Photographer </span>is a Haveri-based
+            photography business that specializes in capturing the essence of
+            life's most precious moments. Our team of talented photographers is
+            dedicated to providing you with high-quality, stunning images that
+            will last a lifetime. Whether you're looking for a wedding
+            photographer or simply need a portrait session, Praveen has the
+            expertise and experience to deliver exceptional results. We pride
+            ourselves on our attention to detail and commitment to customer
+            satisfaction, and we strive to exceed your expectations with every
+            shoot. Contact us today to learn more about our services and to
+            schedule your session.
+          </p>
+        </div>
+      </center>
+    </section>
+    <section id="services" class="services">
+      <center><span>Services</span></center>
+      <div class="cards-container">
+        <div class="cards">
+          <h4>Product Photography</h4>
+          <img src="./image1.jpg" alt="" />
+          <p>
+            We capture high-quality images of your products that not only
+            showcase their features but also entice customers to make a
+            purchase.
+          </p>
+        </div>
+        <div class="cards">
+          <h4>Event Photography</h4>
+          <img src="./image.jpg" alt="" />
+          <p>
+            Whether its a corporate event or a wedding, our photographers will
+            capture every moment, and delivering stunning images that tell your
+            story.
+          </p>
+        </div>
+        <div class="cards">
+          <h4>Portrait Photography</h4>
+          <img src="./background.jpg" alt="" />
+          <p>
+            We create timeless portraits that capture your personality and
+            convey your message. Our photographers work with you to create a
+            unique visual narrative.
+          </p>
+        </div>
+      </div>
+      <center><button class="contact">More...</button></center>
+    </section>
+    <section id="testimonials" class="testimonials">
+      <center>
+        <span>Testimonials</span>
+        <div class="feedback">
+          <div class="comments">
+            <img src="prajwal.jpg" alt="" />
+            <p>
+              I had an incredible experience with Mallu Photography! Their
+              attention to detail and creativity truly captured the essence of
+              my special moments. The team was professional, friendly. Thank you
+              for the stunning photographs that I will cherish forever! <br><br>
+              <pre>-Prajwal</pre>
+            </p>
+          </div>
+          <div class="comments">
+            <img src="vijay.jpg" alt="" />
+            <p>
+              Mallu's photography skills are exceptional! The attention to
+              detail and creativity in each shot is truly impressive. I highly
+              recommend him for any photography needs in Bengaluru. Thank you
+              for capturing such beautiful memories! <br><br><br>
+              <pre>-Vijay</pre>
+            </p>
+          </div>
+          <div class="comments">
+            <img src="naanda.jpg" alt="" />
+            <p>
+              Mallu's photography skills are truly exceptional. They captured
+              the essence of our event beautifully and the pictures turned out
+              to be stunning. Thank you for making our memories last a lifetime! <br><br><br><br>
+              <pre>-Nanda</pre>
+            </p>
+          </div>
+          <div class="comments">
+            <img src="kiran.jpg" alt="" />
+            <p>
+              mallu is an amazing photographer! His attention to detail and
+              creativity are unparalleled. He captured the essence of my event
+              perfectly and delivered the photos promptly. Highly recommend his
+              services to anyone looking for beautiful photos! <br><br><br>
+              <pre>-Kiran</pre>
+            </p>
+          </div>
+          <div class="comments">
+            <img src="madhu.jpg" alt="" />
+            <p>
+              Mallu's photography skills are top-notch! He captured the essence
+              of my event beautifully. He was professional, punctual, and his
+              attention to detail was impressive. Thank you for making my
+              special day even more memorable with your stunning photographs. <br><br>
+              <pre>-Madhu</pre>
+            </p>
+          </div>
+        </div>
+      </center>
+    </section>
+    <section class="contact-form" id="contact" >
+      <center><span>Contact Us</span></center>
+      <div class="form-container">  
+      <div class="contact-inp">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="7d5026b4-5c3a-4158-b335-751876079d46">
+        <input id="name" class="name" name="name" type="text" placeholder="Name" required>
+        <input id="email" class="email" name="email" type="email" placeholder="Email" required>
+        <input id="msg" class="msg1" name="msg" type="text" placeholder="Message" required>
+        <div class="btn">
+          <button onclick="handleSubmit()">SEND</button>
+        </form>
+        </div>
+      </div>
+      <div class="para">
+        <h1>Get in Touch with Us</h1>
+        <p>Have a question or interested in our photography services? Fill out the form below and we'll 
+          get back to you as soon as possible. We can't wait to hear from you!</p><br>
+          <div class="contact-us">
+            <p><i class='bx bxs-envelope' style="font-size: large;"></i> praveengoud8722@gmail.com</p>
+            <p><i  class='bx bxs-phone' style="font-size: large;"></i> +91 9164121730</p>
+            <p><i class='bx bxs-map' ></i>   Haveri, Karnataka 581110</p>
+          </div>  
+          <div class="social-media">
+            <a target="_blank" href="https://www.linkedin.com/in/praveen-hanamantagoudra-a90b55249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin-square'></i></a>
+            <a href=""><i class='bx bxl-facebook-square' ></i></a>
+            <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+            <a target="_blank" href="https://github.com/Praveen8722?tab=repositories"><i class='bx bxl-github' ></i></a>
+            <a href=""><i class='bx bxl-telegram' ></i></a>
+          </div>
+      </div>
+    </div>
+    </section>
+    <button id="scrollToTopBtn" title="Go to top"><i class='bx bx-up-arrow-alt' ></i></button>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"> </script> -->
+    <script src="app.js"></script>
+  </body>
+</html>
